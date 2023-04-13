@@ -70,7 +70,7 @@ def test_1(data):
     for item in [1, 3, 4, 5, 6]:
         linkedlist_test.append(item)
 
-    assert removeDuplicatesFromLinkedList(linkedlist) == linkedlist_test
+    assert removeDuplicatesFromLinkedList(linkedlist).__str__() == linkedlist_test.__str__()
 
 
 def test_2(data):
@@ -85,7 +85,7 @@ def test_2(data):
     for item in [1, 4, 5, 6]:
         linkedlist_test.append(item)
 
-    assert removeDuplicatesFromLinkedList(linkedlist) == linkedlist_test
+    assert removeDuplicatesFromLinkedList(linkedlist).__str__() == linkedlist_test.__str__()
 
 
 def test_3(data):
@@ -100,7 +100,7 @@ def test_3(data):
     for item in [1]:
         linkedlist_test.append(item)
 
-    assert removeDuplicatesFromLinkedList(linkedlist) == linkedlist_test
+    assert removeDuplicatesFromLinkedList(linkedlist).__str__() == linkedlist_test.__str__()
 
 
 def test_4(data):
@@ -115,7 +115,7 @@ def test_4(data):
     for item in [1, 9, 11, 15, 16, 17]:
         linkedlist_test.append(item)
 
-    assert removeDuplicatesFromLinkedList(linkedlist) == linkedlist_test
+    assert removeDuplicatesFromLinkedList(linkedlist).__str__() == linkedlist_test.__str__()
 
 
 def test_5(data):
@@ -130,7 +130,7 @@ def test_5(data):
     for item in [1]:
         linkedlist_test.append(item)
 
-    assert removeDuplicatesFromLinkedList(linkedlist) == linkedlist_test
+    assert removeDuplicatesFromLinkedList(linkedlist).__str__() == linkedlist_test.__str__()
 
 
 def test_6(data):
@@ -145,7 +145,7 @@ def test_6(data):
     for item in [-5, -1, 5, 8, 9, 10, 11]:
         linkedlist_test.append(item)
 
-    assert removeDuplicatesFromLinkedList(linkedlist) == linkedlist_test
+    assert removeDuplicatesFromLinkedList(linkedlist).__str__() == linkedlist_test.__str__()
 
 
 def test_7(data):
@@ -160,4 +160,4 @@ def test_7(data):
     for item in [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]:
         linkedlist_test.append(item)
 
-    assert removeDuplicatesFromLinkedList(linkedlist) == (linkedlist_test)
+    assert removeDuplicatesFromLinkedList(linkedlist).__str__() == linkedlist_test.__str__()
